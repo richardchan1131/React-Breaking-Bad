@@ -1,0 +1,89 @@
+
+/*container of the whole details of the character*/
+.details{
+    height: 100%;
+    width: fit-content;
+    min-width: 320px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(24, 39, 75, 0.12), 0px 18px 88px rgba(24, 39, 75, 0.14);
+}
+
+/*character profile image*/
+.profileImage{
+    width: 100%;
+    max-width: 700px;
+    min-width: 320px;
+    border-radius: 10px;
+}
+
+/*character name*/
+.Name{
+    font-size: 32px;
+    color: #4d4d4d;
+    text-align: center;
+}
+
+/*about the character*/
+.content{
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+
+}
+
+/*information's about the character*/
+.information{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.information p{
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+/*quotes made by the character*/
+.quotesList{
+    color: #4d4d4d;
+    margin: 10px;
+    font-Size: 16px;
+}
+.quotes-bold{
+  font-size: 26px;
+  color:rgb(51, 51, 51) ;
+}
+.bold{
+    color: rgb(34, 33, 33) !important;
+    margin-right: 10px;
+}
+
+
+
+/*Made responsive*/
+@media (max-width:600px){
+    .details{
+        height: 100%;
+        width: 340px;
+    }
+    
+.bold{
+    margin-right: 0px;
+}
+
+.information p{
+    font-size: 10px;
+    color: #4d4d4d;
+}
+.quotesList{
+    max-width: 300px;
+    margin: 1px;
+    font-Size: 10px;
+}
+.quotes-bold{
+  font-size: 16px;
+  color:rgb(51, 51, 51) ;
+}
+}
